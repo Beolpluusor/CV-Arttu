@@ -26,6 +26,12 @@ function Projects () {
                     link="https://github.com/Beolpluusor/projectaa-v2" 
                     language="React, Node.js, Express"
                 />
+                <ProjectCard 
+                    title="CV Website" 
+                    description="this website, made with React and styled with CSS, it is a simple CV website that has all the information about me and my skills" 
+                    link="https://github.com/Beolpluusor/CV-Arttu" 
+                    language="React, CSS"
+                />
             </div>
         </section>
     );
