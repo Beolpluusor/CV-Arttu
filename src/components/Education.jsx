@@ -16,19 +16,19 @@ function Education () {
                 <EduCard 
                     institution="Riveria - programming" 
                     degree="Programmer specialist" 
-                    graduationDate="started at 2025" 
+                    graduationDate="2025 - >" 
                 />
-                
+
                 <EduCard 
                     institution="Riveria - forestry" 
                     degree="Forestry worker / Forest service Producer" 
-                    graduationDate="January 2025" 
+                    graduationDate="2022 - 2025" 
                 />
 
                 <EduCard 
                     institution="Vocational School, Nurmes - Information Technology" 
                     degree="Vocational Qualification in Information and Communications Technology (ICT)" 
-                    graduationDate="May 2008" 
+                    graduationDate="2005 - 2008" 
                 />
             </div>
         </section>
