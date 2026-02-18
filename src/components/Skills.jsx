@@ -6,7 +6,7 @@ function Skills () {
                 <ul>
                     <li>Proficient in JavaScript, React, Node.js, and Python.</li>
                     <li>IT Background from vocational studies and hobbies</li>
-                    <li>Strong problem-solving and communication skills.</li>
+                    <li>moderate problem-solving and communication skills.</li>
                     <li>Git version control experience</li>
                     <li>AWS academy basic knowledge</li>  
                     <li>AWS academy AI basics</li>
