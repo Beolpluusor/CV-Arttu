@@ -1,0 +1,131 @@
+/* --- LCARS VÄRIT --- */
+:root {
+  --lcars-bg: #000000;
+  --lcars-panel: #1a1a1a;
+  --lcars-orange: #ff9966;
+  --lcars-blue: #6699ff;
+  --lcars-pink: #ff6699;
+  --lcars-yellow: #ffcc66;
+  --lcars-text: #e6e6e6;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000; /* varmistaa ettei tausta ole valkoinen */
+}
+
+/* --- KOKONAISUUS --- */
+.App {
+  background: var(--lcars-bg);
+  color: var(--lcars-text);
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  padding-bottom: 4rem;
+}
+
+/* --- NAVIGAATIO (LCARS-PANEELI) --- */
+.NavigationBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background: var(--lcars-panel);
+  border-bottom: 6px solid var(--lcars-orange);
+  border-radius: 0 0 40px 40px;
+}
+
+.NavigationBar a {
+  color: var(--lcars-orange);
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.NavigationBar a:hover {
+  background: var(--lcars-orange);
+  color: black;
+}
+
+/* --- LCARS-PANEELIEN YHTEISET TYYLIT --- */
+section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: var(--lcars-panel);
+  border-radius: 40px 0 0 40px;
+  border-left: 12px solid var(--lcars-blue);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+section h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+  color: var(--lcars-blue);
+}
+
+/* --- ABOUT --- */
+#About {
+  border-left-color: var(--lcars-orange);
+}
+
+/* --- EDUCATION --- */
+.EducationArea {
+  border-left-color: var(--lcars-yellow);
+}
+
+/* --- EXPERIENCE --- */
+.ExperienceArea {
+  border-left-color: var(--lcars-pink);
+}
+
+.ExperienceCard {
+  background: #111;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 20px;
+  border-left: 8px solid var(--lcars-pink);
+  transition: 0.2s;
+}
+
+.ExperienceCard:hover {
+  background: #222;
+  box-shadow: 0 0 12px var(--lcars-pink);
+}
+
+/* --- PROJECTS --- */
+.PojectsArea {
+  border-left-color: var(--lcars-blue);
+}
+
+.PojectsArea a {
+  color: var(--lcars-blue);
+  text-decoration: none;
+}
+
+.PojectsArea a:hover {
+  text-shadow: 0 0 8px var(--lcars-blue);
+}
+
+/* --- SKILLS --- */
+.SkillsArea {
+  border-left-color: var(--lcars-orange);
+}
+
+.SkillsArea ul {
+  list-style: none;
+  padding: 0;
+}
+
+.SkillsArea li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #333;
+}
