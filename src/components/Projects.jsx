@@ -3,9 +3,11 @@ function Projects () {
         return (
             <div className="ProjectCard">
                 <p><strong>{title}</strong></p>
-                <p>{language}</p>
-                <p>{description}</p>
-                <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>
+                <p>Code Languages:</p>
+                <dd>{language}</dd>
+                <p>Description:</p>
+                <dd>{description}</dd>
+                <a href={link} target="_blank" rel="noopener noreferrer"><h3>View Project</h3></a>
             </div>
         );
     }
@@ -20,14 +22,14 @@ function Projects () {
                     link="https://github.com/Beolpluusor/eliteStarRouter" 
                     language="Python"
                 />
-
+                <hr />
                 <ProjectCard 
                     title="Project AA V2" 
                     description="a small project of making react website that has frontend and backend, its a small Arcade website with 2 games and a hall-of-fame page" 
                     link="https://github.com/Beolpluusor/projectaa-v2" 
                     language="React, Node.js, Express"
                 />
-
+                <hr />
                 <ProjectCard 
                     title="CV Website" 
                     description="this website, made with React and styled with CSS, it is a simple CV website that has all the information about me and my skills" 

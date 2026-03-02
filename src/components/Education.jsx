@@ -3,11 +3,12 @@ function Education () {
     function EduCard ({ institution, degree, graduationDate }) {
         return (
             <div className="EduCard">
-                <p><strong>{institution}</strong></p>
-                <p>{degree}, {graduationDate}</p>
+                <p><h3><strong>{institution}</strong></h3></p>
+                <p><dd>{degree}, {graduationDate}</dd></p>
             </div>
         );
     }
+
 
     return (
         <section id="Education">
