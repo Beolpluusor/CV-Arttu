@@ -15,8 +15,9 @@ function Skills () {
                         <dd>builded every computer I have owned</dd>
                     <br />    
                     <li><h3>Moderate problem-solving and communication skills.</h3></li>
+                        <dd>using Trello as project/studying Management</dd>
                         <dd>understanding importance of log/print to get code inputs/outputs</dd>
-                        <dd>Im very humble person and allways open for new ways to learn from eachothers</dd>
+                        <dd>Im very humble person and allways open for new ways to learn from different sources</dd>
                     <br />
                     <li><h3>Git version control experience</h3></li>
                         <dd>every project I have started is in GitHub</dd>
